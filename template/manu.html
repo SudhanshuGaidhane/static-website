@@ -1,0 +1,531 @@
+{%extends "base.html"%}
+{%load static%}
+    
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== BANNER PART START ======-->
+    {%block content%}
+
+    <section class="page-title-area bg_cover" style="background-image: url(assets/images/page-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-title-item text-center">
+                        <h3 class="title">Rondhon's Menu</h3>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Menu</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== PAGE TITLE PART ENDS ======-->
+
+    <!--====== RONDHON MENU PART START ======-->
+    
+    <section class="rondhon-menu-area pt-150 pb-150">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="rondhon-menu-tab d-flex align-items-center">
+                        <span>view:</span>
+                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fal fa-list"></i></a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-th-large"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/gallery-6.png' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">Cheese and Corn Pizza</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4>Rs110</h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- INDIA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/special-menu-4.png' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">Grilled Peach & Summer Berries</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                  <div class="col-lg-2 col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4>Rs100</h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- INDIA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span></span> <i class=""></i><i class="></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=" "></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/restaurant-1.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">Margherita Pizza</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4>Rs166</h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- INDIA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span>35</span> <i class=""></i><i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span>10</span> <i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i></li>
+                                            <li><span></span></span> <i class=""></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/rondhon-menu-4.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8">
+                                <div class="rondhon-menu-content">
+              fy           <h3 class="title"><a href="#">Spicy and Crispy packets with white sauce</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4>Rs150</h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- INDIA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/instagram-2.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5  col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">Double cheese margherita Pizza</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2  col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4><Rs160<h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- INDIA</p>
+                                    <div class="list
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/instagram-1.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">cheesy Tomato Pizza</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4>Rs176</h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- INDIA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i><i class=""></i></li>
+                                            <li><span></span> <i class=""></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/rondhon-menu-1.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">Exotic cheese Pizza</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4>Rs186</h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- INDIA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>35</span> <i class=""></i><i class=""></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>10</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>6</span> <i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>2</span> <i class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/rondhon-menu-2.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">Grilled Peach & Summer Berries</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4>$86</h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- USA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>35</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>10</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>6</span> <i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>2</span> <i class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/rondhon-menu-3.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">Prisciutto E Funghi Pizza</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4><Rs class="150"></Rs></h4>
+                                    <span>Restaurant:</span>
+                                    <p>Spongy fluf Pizza- INDIA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>35</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>10</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>6</span> <i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>2</span> <i class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/rondhon-menu-4.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5  col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">Cheese and Corn</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2  col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4>Rs.160</h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- INDIA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>35</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>10</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>6</span> <i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>2</span> <i class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/rondhon-menu-5.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">Heirloom Tomato Caprese</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4>Rs86</h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- USA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>35</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>10</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>6</span> <i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>2</span> <i class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rondhon-menu-item mt-30">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="rondhon-menu-thumb">
+                                    <img src="{% static 'assets/images/rondhon-menu-6.jpg' %}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-8">
+                                <div class="rondhon-menu-content">
+                                    <h3 class="title"><a href="#">Heirloom Tomato Caprese</a></h3>
+                                    <p>Food Type: Chicken Stick <br> Delivery time: 60 Minutes, Delivery Cost: Free Duis mauris augue, efficitur eu arcu sit amet, </p>
+                                    <a class="main-btn" href="#">Add to Order</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-4">
+                                <div class="randhon-menu-review">
+                                    <h4>$86</h4>
+                                    <span>Restaurant:</span>
+                                    <p>Dallas Pizza- USA</p>
+                                    <div class="list">
+                                        <ul>
+                                            <li><span>50</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>35</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>10</span> <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>6</span> <i class="fas fa-star"></i><i class="fas fa-star"></i></li>
+                                            <li><span>2</span> <i class="fas fa-star"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="pagination-area d-flex justify-content-start mt-50">
+                        <nav aria-label="Page navigation ">
+                          <ul class="pagination">
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true"><i class="fal fa-arrow-left"></i></span>
+                              </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item"><a class="page-link" href="#">...</a></li>
+                            <li class="page-item"><a class="page-link" href="#">7</a></li>
+                            <li class="page-item">
+                              <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true"><i class="fal fa-arrow-right"></i></span>
+                              </a>
+                            </li>
+                          </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== RONDHON MENU PART ENDS ======-->
+
+    <!--====== INSTAGRAM PART START ======-->
+    
+    <div class="instagram-area">
+        <div class="container-fluid p-0">
+            <div class="row  no-gutters">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-2.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-1.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-3.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-4.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-5.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-6.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--====== INSTAGRAM PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+    
+   {%endblock%}

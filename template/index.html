@@ -1,0 +1,503 @@
+{%extends "base.html"%}
+{%load static%}
+    
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== BANNER PART START ======-->
+    {%block content%}
+    <section class="banner-area bg_cover d-flex align-items-center parallaxie" style="background-image: url(static/assets/images/banner-bg.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="banner-content text-center">
+                        <h1 class="title">Delicious Food For <span>Your Everyday</span></h1>
+                        <p>we are providing you a delicious and quality food <br> Giving A Twist of Best Taste </p>
+                        <div class="search-restaurant">
+                            <form action="#">
+                                <div class="input-box">
+                                    <input type="text" placeholder="Type Place, City, Division">
+                                </div>
+                                <div class="input-box item-2">
+                                    <input type="text" placeholder="Restaurant">
+                                </div>
+                                <div class="input-box">
+                                    <button class="main-btn" type="button"><i class="far fa-search"></i> Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== BANNER PART ENDS ======-->
+
+    <!--====== HOW IT WORK PART START ======-->
+    
+    <section class="how-it-work-area bg_cover pt-150 pb-150 parallaxie" style="background-image: url(static/assets/images/how-it-work-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="how-it-work-box">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                                <div class="section-title text-center">
+                                    <img src="{% static 'assets/images/shape/title-shape.png' %}" alt="title">
+                                    <h3 class="title">How it work</h3>
+                                    <p>The Process of our service</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-4 col-md-8">
+                                <div class="how-it-work-item mt-30">
+                                    <a href="#"><h4 class="title"><img src="{% static 'assets/images/icon/icon-1.png' %}" alt=""> Choose Restaurant</h4></a>
+                                    <p>Food ordering system is all you need to turn your restaurants in web ex restaurant menu, table reservation,online food ordering,restaurant booking system./p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-8">
+                                <div class="how-it-work-item mt-30">
+                                    <a href="#"><h4 class="title"><img src="{% static 'assets/images/icon/icon-2.png' %}" alt=""> Select, you love to eat</h4></a>
+                                    <p>you can order whatever you like and you can reserved or saved your favourite dishes ex.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-8">
+                                <div class="how-it-work-item mt-30">
+                                    <a href="#"><h4 class="title"><img src="{% static 'assets/images/icon/icon-3.png' %}" alt=""> Pickup or delivery</h4></a>
+                                    <p>we are developedfood delivery web which not only made it easy for the customers to enjoy scrumputious food ,theseweb are easy touse by accessing your location and showing the restaurant that are near to your location and they also show the delivery time that a restaurant will take.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== HOW IT WORK PART ENDS ======-->
+
+    <!--====== CATEGORY PART START ======-->
+    
+    <section class="category-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="section-title text-center">
+                        <img src="{% static 'assets/images/shape/title-shape-2.png' %}" alt="title">
+                        <h3 class="title">Search by food category</h3>
+                        <p>The Process of our service</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="category-item mt-30">
+                        <div class="category-thumb">
+                            <img src="{% static 'assets/images/restaurant-5.jpg' %}" alt="category">
+                            <div class="item">
+                                <img src="{% static 'assets/images/category-shapp.png' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="category-content text-center">
+                            <a href="#">Breakfast Iteam</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="category-item mt-30">
+                        <div class="category-thumb">
+                            <img src="{% static 'assets/images/restaurant-6.jpg' %}" alt="category">
+                            <div class="item">
+                                <img src="{% static 'assets/images/category-shapp.png' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="category-content text-center">
+                            <a href="#">Lunch Iteam</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="category-item mt-30">
+                        <div class="category-thumb">
+                            <img src="{% static 'assets/images/ins-1.jpg' %}" alt="category">
+                            <div class="item">
+                                <img src="{% static 'assets/images/category-shapp.png' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="category-content text-center">
+                            <a href="#">Dinner Iteam</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== CATEGORY PART ENDS ======-->
+
+    <!--====== FUN FACTS PART START ======-->
+    
+    <div class="fun-facts-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="fun-facts-item mt-30 text-center">
+                        <h3 class="title odometer" data-count="275">00</h3>
+                        <span>Daily Orders</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="fun-facts-item mt-30 text-center">
+                        <h3 class="title odometer" data-count="925">00</h3>
+                        <span>Active Restaurant</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="fun-facts-item mt-30 text-center">
+                        <h3 class="title odometer" data-count="989">00</h3>
+                        <span>Daily traffic</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-7">
+                    <div class="fun-facts-item mt-30 text-center">
+                        <h3 class="title odometer" data-count="125">00</h3>
+                        <span>Delivery Boy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--====== FUN FACTS PART ENDS ======-->
+
+    <!--====== FOOD MENU PART START ======-->
+    
+    <section class="food-menu-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <img src="{% static 'assets/images/shape/title-shape-2.png' %}" alt="title">
+                        <h3 class="title">Restaurant With Special Menu All</h3>
+                        <p>The Process of our service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container custom-container-2">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="food-menu-box bg_cover" style="background-image: url(static/assets/images/food-menu-bg.jpg);">
+                        <div class="project-menu">
+                            <ul>
+                                <li data-filter="*" class="active">All</li>
+                                <li data-filter=".cat-1">Breakfast</li>
+                                <li data-filter=".cat-2">Lunch</li>
+                                <li data-filter=".cat-3">Dinner</li>
+                                <li data-filter=".cat-4">Coffee</li>
+                                <li data-filter=".cat-5">Snacks</li>
+                            </ul>
+                        </div>
+                        <div class="row grid">
+                            <div class="col-lg-6 cat-3 cat-4 cat-2">
+                                <div class="food-menu-item mt-30 d-block d-sm-flex align-items-center">
+                                    <div class="food-menu-thumb">
+                                        <img src="{% static 'assets/images/food-menu-1.jpg' %}" alt="item">
+                                    </div>
+                                    <div class="food-menu-content">
+                                        <a href="#"><h4 class="title">Cheese corn Pizza</h4></a>
+                                        <ul>
+                                            <li>Food Type: PIZZA(snack) Stick</li>
+                                            <li>Delivery time: 60 Minutes, Delivery Cost: Free</li>
+                                        </ul>
+                                        <span>Rs100</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 cat-1 cat-5 cat-2">
+                                <div class="food-menu-item mt-30 d-block d-sm-flex align-items-center">
+                                    <div class="food-menu-thumb">
+                                        <img src="{% static 'assets/images/food-menu-2.jpg' %}" alt="item">
+                                    </div>
+                                    <div class="food-menu-content">
+                                        <a href="#"><h4 class="title"> Uttapam</h4></a>
+                                        <ul>
+                                            <li>Food Type: southindian (Snacks)></style>(snaks)</li>
+                                            <li>Delivery time: 60 Minutes, Delivery Cost: Free</li>
+                                        </ul>
+                                        <span>Rs65</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 cat-2 cat-3 cat-5">
+                                <div class="food-menu-item mt-30 d-block d-sm-flex align-items-center">
+                                    <div class="food-menu-thumb">
+                                        <img src="{% static 'assets/images/food-menu-3.jpg' %}" alt="item">
+                                    </div>
+                                    <div class="food-menu-content">
+                                        <a href="#"><h4 class="title"> Tomato salaad</h4></a>
+                                        <ul>
+                                            <li>Food Type: raita </li>
+                                            <li>Delivery time: 60 Minutes, Delivery Cost: Free</li>
+                                        </ul>
+                                        <span>Rs86</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 cat-1 cat-3 cat-5">
+                                <div class="food-menu-item mt-30 d-block d-sm-flex align-items-center">
+                                    <div class="food-menu-thumb">
+                                        <img src="{% static 'assets/images/food-menu-4.jpg' %}" alt="item">
+                                    </div>
+                                    <div class="food-menu-content">
+                                        <a href="#"><h4 class="title">Sambhar vadi</h4></a>
+                                        <ul>
+                                            <li>Food Type: vadi(Maharashtriyan style)</li>
+                                            <li>Delivery time: 60 Minutes, Delivery Cost: Free</li>
+                                        </ul>
+                                        <span>Rs120</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 cat-2 cat-5">
+                                <div class="food-menu-item mt-30 d-block d-sm-flex align-items-center">
+                                    <div class="food-menu-thumb">
+                                        <img src="{% static 'assets/images/food-menu-5.jpg' %}" alt="item">
+                                    </div>
+                                    <div class="food-menu-content">
+                                        <a href="#"><h4 class="title"> Crispy Rolls</h4></a>
+                                        <ul>
+                                            <li>Food Type: ROLLS(Snacks) </li>
+                                            <li>Delivery time: 60 Minutes, Delivery Cost: Free</li>
+                                        </ul>
+                                        <span>Rs100</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 cat-1 cat-3 cat-4">
+                                <div class="food-menu-item mt-30 d-block d-sm-flex align-items-center">
+                                    <div class="food-menu-thumb">
+                                        <img src="{% static 'assets/images/food-menu-6.jpg' %}" alt="item">
+                                    </div>
+                                    <div class="food-menu-content">
+                                        <a href="#"><h4 class="title">Palak wada with cutteny</h4></a>
+                                        <ul>
+                                            <li>Food Type: palak wada (snacks)</li>
+                                            <li>Delivery time: 60 Minutes, Delivery Cost: Free</li>
+                                        </ul>
+                                        <span>Rs60</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== FOOD MENU PART ENDS ======-->
+
+    <!--====== DOWNLOAD PART START ======-->
+    
+    <section class="download-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <img src="{% static 'assets/images/shape/title-shape-2.png' %}" alt="title">
+                        <h3 class="title">Download our app</h3>
+                        <p>The Process of our service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="download-item-area bg_cover mt-30" style="background-image: url(static/assets/images/download-bg.png);">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="download-item-thumb">
+                            <img src="{% static 'assets/images/download-thumb.png' %}" alt="thumb">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="download-item-content">
+                            <h3 class="title">Food Delivery Now In Your Hand</h3>
+                            <p>Download! to get this app Faster way to order food</p>
+                            <ul>
+                                <li><a href="#"><img src="{% static 'assets/images/store-1.png' %}" alt=""></a></li>
+                                <li><a href="#"><img src="{% static 'assets/images/store-2.png' %}" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== DOWNLOAD PART ENDS ======-->
+
+    <!--====== CLIENT PART START ======-->
+    
+    <section class="client-area bg_cover pt-150 pb-140" style="background-image: url(static/assets/images/client-bg.jpg);">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-2 col-md-3 col-sm-3">
+                    <div class="client-area-thumb-ltem">
+                        <ul>
+                            <li><img src="{% static 'assets/images/client-user-1.png' %}" alt="user"></li>
+                            <li><img src="{% static 'assets/images/client-user-2.png' %}" alt="user"></li>
+                            <li><img src="{% static 'assets/images/client-user-3.png' %}" alt="user"></li>
+                            <li><img src="{% static 'assets/images/client-user-2.png' %}" alt="user"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-9 col-sm-9">
+                    <div class="client-slide">
+                        <div class="client-box">
+                            <h4 class="title">Very Taste and Professional Behave </h4>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <div class="user mt-40">
+                                <div class="thumb">
+                                    <img src="{% static 'assets/images/user-1.png' %}" alt="">
+                                </div>
+                                <span>Shreya</span>
+                                <p>Food Lover Customer</p>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <h4 class="title">Very Taste and Professional Behave </h4>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <div class="user mt-40">
+                                <div class="thumb">
+                                    <img src="{% static 'assets/images/user-2.png' %}" alt="">
+                                </div>
+                                <span>Nikita</span>
+                                <p>Food Lover Customer</p>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <h4 class="title">Very Taste and Professional Behave </h4>
+                            <p>There are many variations of passages of facilities available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <div class="user mt-40">
+                                <div class="thumb">
+                                    <img src="{% static 'assets/images/user-3.png' %}" alt="">
+                                </div>
+                                <span>Neha</span>
+                                <p>Food Lover Customer</p>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <h4 class="title">Very Taste and Professional Behave </h4>
+                            <p>There are many variations of passages of facilities available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <div class="user mt-40">
+                                <div class="thumb">
+                                    <img src="{% static 'assets/images/user-2.png' %}" alt="">
+                                </div>
+                                <span>Shivani</span>
+                                <p>Food Lover Customer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="client-thumb">
+            <img src="{% static 'assets/images/client-thumb.png' %}" alt="">
+        </div>
+    </section>
+    
+    <!--====== CLIENT PART ENDS ======-->
+
+    <!--====== BLOG PART START ======-->
+    
+    <section class="blog-area  pb-150">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <img src="{% static 'assets/images/shape/title-shape-2.png' %}" alt="title">
+                        <h3 class="title">Latest from Blog</h3>
+                        <p>The Process of our service</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="blog-item mt-30">
+                        <div class="blog-thumb">
+                            <img src="{% static 'assets/images/blog-2.jpg' %}" alt="blog">
+                            <span>May 24, 2020</span>
+                        </div>
+                        <div class="blog-content">
+                            <span>Fast  Food</span>
+                            <a href="#"><h4 class="title">Double cheese patty burger with French Fries</h4></a>
+                            <p>There are many variations of  passages of facilities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="blog-item mt-30">
+                        <div class="blog-thumb">
+                            <img src="{% static 'assets/images/gallery-4.png' %}" alt="blog">
+                            <span>May 24, 2020</span>
+                        </div>
+                        <div class="blog-content">
+                            <span>Fast  Food</span>
+                            <a href="#"><h4 class="title">Layered Yogurt Flatbreads</h4></a>
+                            <p>There are many variations of  passages of facilities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="blog-item mt-30">
+                        <div class="blog-thumb">
+                            <img src="{% static 'assets/images/blog-3.jpg' %}" alt="blog">
+                            <span>May 24, 2020</span>
+                        </div>
+                        <div class="blog-content">
+                            <span>Fast  Food</span>
+                            <a href="#"><h4 class="title">Any-kind-of-fruit Galette</h4></a>
+                            <p>There are many variations of  passages of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== BLOG PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+
+    {%endblock%}

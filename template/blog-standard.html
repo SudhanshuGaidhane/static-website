@@ -1,0 +1,295 @@
+{%extends "base.html"%}
+{%load static%}
+    
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== BANNER PART START ======-->
+    {%block content%}
+
+    <section class="page-title-area bg_cover" style="background-image: url(assets/images/page-bg-2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-title-item text-center">
+                        <h3 class="title">Blog Standard</h3>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Blog Standard</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== PAGE TITLE PART ENDS ======-->
+
+    <!--====== BLOG STANDARD PART START ======-->
+    
+    <div class="blog-standard-area pt-120 pb-150">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="blog-standard mt-30">
+                        <div class="blog-standard-item">
+                            <div class="blog-standard-thumb">
+                                <img src="{% static 'assets/images/blog-standard-1.jpg' %}" alt="">
+                                <span>May 24, 2020</span>
+                            </div>
+                            <div class="blog-standard-content">
+                                <span>Fast  Food</span>
+                                <a href="#">Air Fryer French Fries</a>
+                                <p>Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id sem. Maecenas a venenatis enim, quis </p>
+                            </div>
+                        </div>
+                        <div class="blog-standard-item mt-50">
+                            <div class="blog-standard-thumb">
+                                <img src="{% static 'assets/images/blog-standard-2.jpg' %}" alt="">
+                                <span>May 24, 2020</span>
+                            </div>
+                            <div class="blog-standard-content">
+                                <span>Fast  Food</span>
+                                <a href="#">Air Fryer French Fries</a>
+                                <p>Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id sem. Maecenas a venenatis enim, quis </p>
+                            </div>
+                        </div>
+                        <div class="blog-standard-item mt-50">
+                            <div class="blog-standard-thumb">
+                                <img src="{% static 'assets/images/blog-standard-3.jpg' %}" alt="">
+                                <span>May 24, 2020</span>
+                            </div>
+                            <div class="blog-standard-content">
+                                <span>Fast  Food</span>
+                                <a href="#">Air Fryer French Fries</a>
+                                <p>Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id sem. Maecenas a venenatis enim, quis </p>
+                            </div>
+                        </div>
+                        <div class="blog-standard-item mt-50">
+                            <div class="blog-standard-thumb">
+                                <img src="{% static 'assets/images/blog-standard-4.jpg' %}" alt="">
+                                <span>May 24, 2020</span>
+                            </div>
+                            <div class="blog-standard-content">
+                                <span>Fast  Food</span>
+                                <a href="#">Air Fryer French Fries</a>
+                                <p>Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id sem. Maecenas a venenatis enim, quis </p>
+                            </div>
+                        </div>
+                        <div class="blog-standard-item mt-50">
+                            <div class="blog-standard-thumb">
+                                <img src="{% static 'assets/images/blog-standard-5.jpg' %}" alt="">
+                                <span>May 24, 2020</span>
+                            </div>
+                            <div class="blog-standard-content">
+                                <span>Fast  Food</span>
+                                <a href="#">Air Fryer French Fries</a>
+                                <p>Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id sem. Maecenas a venenatis enim, quis </p>
+                            </div>
+                        </div>
+                        <div class="pagination-area d-flex justify-content-center mt-60">
+                            <nav aria-label="Page navigation ">
+                              <ul class="pagination">
+                                <li class="page-item">
+                                  <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true"><i class="fal fa-arrow-left"></i></span>
+                                  </a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link active" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link" href="#">7</a></li>
+                                <li class="page-item">
+                                  <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="fal fa-arrow-right"></i></span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-9">
+                    <div class="blog-sidebar mt-30">
+                        <div class="blog-sidebar-search">
+                            <form action="#">
+                                <div class="box">
+                                    <input type="text" placeholder="Search">
+                                    <button><i class="far fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="blog-sidebar-post mt-60">
+                            <div class="blog-sidebar-title">
+                                <h3 class="title">Featured Recipes</h3>
+                            </div>
+                            <div class="blog-sidebar-post-item">
+                                <div class="item mt-20 d-flex align-items-center">
+                                    <div class="thumb">
+                                        <img src="{% static 'assets/images/blog-post-1.png' %}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#"><h5 class="title">Cream Cheese Frosting</h5></a>
+                                        <ul>
+                                            <li>April 27, 2020</li>
+                                            <li><i class="fas fa-comments"></i> 127</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item mt-20 d-flex align-items-center">
+                                    <div class="thumb">
+                                        <img src="{% static 'assets/images/blog-post-2.png' %}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#"><h5 class="title">Chicken Tortilla Soup</h5></a>
+                                        <ul>
+                                            <li>April 27, 2020</li>
+                                            <li><i class="fas fa-comments"></i> 127</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item mt-20 d-flex align-items-center">
+                                    <div class="thumb">
+                                        <img src="{% static 'assets/images/blog-post-3.png' %}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#"><h5 class="title">Cream Cheese Frosting</h5></a>
+                                        <ul>
+                                            <li>April 27, 2020</li>
+                                            <li><i class="fas fa-comments"></i> 127</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-sidebar-list mt-60">
+                                <div class="blog-sidebar-title">
+                                    <h3 class="title">Categories</h3>
+                                </div>
+                                <div class="blog-sidebar-list-item">
+                                    <ul>
+                                        <li><a href="#">All Categories</a></li>
+                                        <li><a href="#">Images Posts</a></li>
+                                        <li><a href="#">Life Style</a></li>
+                                        <li><a href="#">Photograph</a></li>
+                                        <li><a href="#">Recipe</a></li>
+                                        <li><a href="#">Asian Food</a></li>
+                                        <li><a href="#">Lifestyle</a></li>
+                                        <li><a href="#">Tour</a></li>
+                                        <li><a href="#">Chines Food</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="blog-sidebar-tags mt-60">
+                                <div class="blog-sidebar-title">
+                                    <h3 class="title">Tags</h3>
+                                </div>
+                                <div class="blog-sidebar-tags-item">
+                                    <ul>
+                                        <li><a href="#">Images Posts</a></li>
+                                        <li><a href="#">Life Style</a></li>
+                                        <li><a href="#">Life Style</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Life Style</a></li>
+                                        <li><a href="#">Asian Food</a></li>
+                                        <li><a href="#">Photograph</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Tour</a></li>
+                                        <li><a href="#">Recipe</a></li>
+                                        <li><a href="#">Food</a></li>
+                                        <li><a href="#">Asian Food</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Photograph</a></li>
+                                        <li><a href="#">Images Posts</a></li>
+                                        <li><a href="#">Recipe</a></li>
+                                    </ul>
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="blog-sidebar-newsletter">
+                            <img src="{% static 'assets/images/newsleatter.png' %}" alt="">
+                            <h4 class="title">Newsletter</h4>
+                            <p>Subscribe to our newsletter & stay update</p>
+                            <form action="#">
+                                <div class="input-box">
+                                    <input type="text" placeholder="Enter your email">
+                                    <button type="button" class="main-btn">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--====== BLOG STANDARD PART ENDS ======-->
+
+    <!--====== INSTAGRAM PART START ======-->
+    
+    <div class="instagram-area">
+        <div class="container-fluid p-0">
+            <div class="row  no-gutters">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-1.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-2.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-3.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-4.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-5.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-6.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--====== INSTAGRAM PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+    
+    {%endblock%}

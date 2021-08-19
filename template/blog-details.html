@@ -1,0 +1,388 @@
+{%extends "base.html"%}
+{%load static%}
+    
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== BANNER PART START ======-->
+    {%block content%}
+    
+    <section class="page-title-area bg_cover" style="background-image: url(assets/images/page-bg-2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-title-item text-center">
+                        <h3 class="title">Blog Details</h3>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index-2.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Blog Details</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== PAGE TITLE PART ENDS ======-->
+
+    <!--====== BLOG STANDARD PART START ======-->
+    
+    <section class="blog-standard-area pt-120 pb-150">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="blog-details mt-30 mr-20">
+                        <div class="blob-thumb">
+                            <img src="{% static 'assets/images/blog-details-thumb.jpg' %}" alt="">
+                        </div>
+                        <div class="blog-details-topbar d-block d-md-flex justify-content-between align-items-center">
+                            <div class="item-1">
+                                <ul>
+                                    <li><i class="fas fa-user"></i> Posted By: <span>Admin</span></li>
+                                    <li><i class="fas fa-calendar"></i> June 01, 2020 </li>
+                                </ul>
+                            </div>
+                            <div class="item-2">
+                                <ul>
+                                    <li><i class="fas fa-comments"></i> 50 </li>
+                                    <li><i class="fas fa-heart"></i> 50 </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="blog-details-content">
+                            <h3 class="title">Tips For Little Seafoodies (And Their Caregivers)</h3>
+                            <p>Pellentesque tincidunt tristique neque, eget venenatis enim gravida quis. Fusce at egestas libero. Cras convallis egestas ullamcorper. Suspendisse sed ultricies nisl, pharetra rutrum mauris. Vestibulum at massa dui. Morbi et purus velit. Etiam tristique, justo eu condimentum efficitur, purus velit facilisis sem, id fringilla tortor quam quis dolor. </p>
+                            <div class="row align-items-center mt-35">
+                                <div class="col-lg-6">
+                                    <div class="text">
+                                        <p>Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id sem. Maecenas a venenatis enim, quis porttitor magna. Etiam nec rhoncus neque. Sed quis ultrices eros. Curabitur sit amet eros eu arcu consectetur pulvinar. Aliquam </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="thumb">
+                                        <img src="{% static 'assets/images/blog-details-thumb-1.jpg' %}" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-details-quote text-center">
+                            <i class="fas fa-quote-left"></i>
+                            <p>Mauris imperdiet orci dapibus, commodo libero nec, interdum tortor.  Morbi in nibh faucibus, iaculis lorem vitae, cursus velit. Etiam non  blandit ex. Mauris in fringilla velit. molestie ipsum at.</p>
+                        </div>
+                        <div class="blog-details-list">
+                            <h3 class="title">Cooking Materials</h3>
+                            <ul>
+                                <li><i class="far fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li><i class="far fa-check"></i> Donec tincidunt nulla in enim sodales, eu faucibus ipsum egestas.</li>
+                                <li><i class="far fa-check"></i> Mauris semper mauris quis massa mollis feugiat.</li>
+                                <li><i class="far fa-check"></i> Cras quis orci eu augue tempor ornare.</li>
+                                <li><i class="far fa-check"></i> Duis at est non lorem iaculis imperdiet sit amet vitae nisi.</li>
+                                <li><i class="far fa-check"></i> Sed dignissim velit non purus consequat maximus.</li>
+                                <li><i class="far fa-check"></i> Praesent convallis eros ac dolor dapibus, vel dictum ante congue.</li>
+                            </ul>
+                        </div>
+                        <div class="blog-details-tags">
+                            <div class="item-1">
+                                <ul>
+                                    <li><span>Tags: </span></li>
+                                    <li><a href="#">Seafood</a></li>
+                                    <li><a href="#">Recipe</a></li>
+                                    <li><a href="#">Asian Food</a></li>
+                                    <li><a href="#">Food</a></li>
+                                </ul>
+                            </div>
+                            <div class="item-2">
+                                <ul>
+                                    <li><span>Share: </span></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="blog-details-post">
+                            <img src="{% static 'assets/images/blog-post.jpg' %}" alt="">
+                            <h5 class="title">Author Name</h5>
+                            <span>Articles Writer</span>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                        </div>
+                        <div class="blog-sidebar-articles">
+                            <div class="articles-title">
+                                <h3 class="title">Related Articles</h3>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 col-md-6 col-sm-9">
+                                    <div class="blog-item mt-30">
+                                        <div class="blog-thumb">
+                                            <img src="{% static 'assets/images/blog-1.jpg' %}" alt="blog">
+                                            <span>May 24, 2020</span>
+                                        </div>
+                                        <div class="blog-content">
+                                            <span>Fast  Food</span>
+                                            <a href="#"><h4 class="title">Air Fryer French Fries</h4></a>
+                                            <p>There are many variations of  passages of Lorem Ipsum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-9">
+                                    <div class="blog-item mt-30">
+                                        <div class="blog-thumb">
+                                            <img src="{% static 'assets/images/blog-2.jpg' %}" alt="blog">
+                                            <span>May 24, 2020</span>
+                                        </div>
+                                        <div class="blog-content">
+                                            <span>Fast  Food</span>
+                                            <a href="#"><h4 class="title">Layered Yogurt Flatbreads</h4></a>
+                                            <p>There are many variations of  passages of Lorem Ipsum.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-details-comments">
+                            <div class="blog-details-title">
+                                <h3 class="title">(3) Comments</h3>
+                            </div>
+                            <div class="blog-details-comments-item">
+                                <div class="item item-1">
+                                    <a href="#"><i class="fas fa-reply-all"></i> Reply</a>
+                                    <img src="{% static 'assets/images/comments-1.jpg' %}" alt="">
+                                    <h4 class="title">Justin Fisher</h4>
+                                    <span>April 18 2020. 3:25 PM</span>
+                                    <p>Mauris imperdiet orci dapibus, commodo libero nec, interdum tortor. Morbi in nibh faucibus, iaculis lorem vitae, cursus velit. Etiam non blandit ex. Mauris in fringilla velit. Fusce eu dictum neque. Maecenas tristique sem neque, vel congue libero</p>
+                                </div>
+                                <div class="item ml-90 item-2">
+                                    <a href="#"><i class="fas fa-reply-all"></i> Reply</a>
+                                    <img src="{% static 'assets/images/comments-2.jpg' %}" alt="">
+                                    <h4 class="title">Marie Gibson</h4>
+                                    <span>April 18 2020. 3:25 PM</span>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><i class="fas fa-reply-all"></i> Reply</a>
+                                    <img src="{% static 'assets/images/comments-3.jpg' %}" alt="">
+                                    <h4 class="title">Philip Fuller</h4>
+                                    <span>April 18 2020. 3:25 PM</span>
+                                    <p>Mauris imperdiet orci dapibus, commodo libero nec, interdum tortor. Morbi in nibh faucibus, iaculis lorem vitae, cursus velit. Etiam non blandit ex. Mauris in fringilla velit. Fusce eu dictum neque. Maecenas tristique sem neque, vel congue libero</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-details-form">
+                            <div class="blog-details-title">
+                                <h3 class="title">Leave a Comment</h3>
+                            </div>
+                            <div class="blog-details-form-item">
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="input-box mt-30">
+                                                <label>Comment</label>
+                                                <textarea name="#" id="#" cols="30" rows="10" placeholder="Type"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="input-box mt-30">
+                                                <label>Name</label>
+                                                <input type="text" placeholder="Type">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="input-box mt-30">
+                                                <label>Website</label>
+                                                <input type="text" placeholder="Type">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="input-box mt-30">
+                                                <label>Email</label>
+                                                <input type="email" placeholder="Type">
+                                                <button class="main-btn mt-30">Post Comment</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-9">
+                    <div class="blog-sidebar mt-30">
+                        <div class="blog-sidebar-search">
+                            <form action="#">
+                                <div class="box">
+                                    <input type="text" placeholder="Search">
+                                    <button><i class="far fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="blog-sidebar-post mt-60">
+                            <div class="blog-sidebar-title">
+                                <h3 class="title">Featured Recipes</h3>
+                            </div>
+                            <div class="blog-sidebar-post-item">
+                                <div class="item mt-20 d-flex align-items-center">
+                                    <div class="thumb">
+                                        <img src="{% static 'assets/images/blog-post-1.png' %}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#"><h5 class="title">Cream Cheese Frosting</h5></a>
+                                        <ul>
+                                            <li>April 27, 2020</li>
+                                            <li><i class="fas fa-comments"></i> 127</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item mt-20 d-flex align-items-center">
+                                    <div class="thumb">
+                                        <img src="{% static 'assets/images/blog-post-2.png' %}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#"><h5 class="title">Chicken Tortilla Soup</h5></a>
+                                        <ul>
+                                            <li>April 27, 2020</li>
+                                            <li><i class="fas fa-comments"></i> 127</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="item mt-20 d-flex align-items-center">
+                                    <div class="thumb">
+                                        <img src="{% static 'assets/images/blog-post-3.png' %}" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <a href="#"><h5 class="title">Cream Cheese Frosting</h5></a>
+                                        <ul>
+                                            <li>April 27, 2020</li>
+                                            <li><i class="fas fa-comments"></i> 127</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-sidebar-list mt-60">
+                                <div class="blog-sidebar-title">
+                                    <h3 class="title">Categories</h3>
+                                </div>
+                                <div class="blog-sidebar-list-item">
+                                    <ul>
+                                        <li><a href="#">All Categories</a></li>
+                                        <li><a href="#">Images Posts</a></li>
+                                        <li><a href="#">Life Style</a></li>
+                                        <li><a href="#">Photograph</a></li>
+                                        <li><a href="#">Recipe</a></li>
+                                        <li><a href="#">Asian Food</a></li>
+                                        <li><a href="#">Lifestyle</a></li>
+                                        <li><a href="#">Tour</a></li>
+                                        <li><a href="#">Chines Food</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="blog-sidebar-tags mt-60">
+                                <div class="blog-sidebar-title">
+                                    <h3 class="title">Tags</h3>
+                                </div>
+                                <div class="blog-sidebar-tags-item">
+                                    <ul>
+                                        <li><a href="#">Images Posts</a></li>
+                                        <li><a href="#">Life Style</a></li>
+                                        <li><a href="#">Life Style</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Life Style</a></li>
+                                        <li><a href="#">Asian Food</a></li>
+                                        <li><a href="#">Photograph</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Tour</a></li>
+                                        <li><a href="#">Recipe</a></li>
+                                        <li><a href="#">Food</a></li>
+                                        <li><a href="#">Asian Food</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="#">Photograph</a></li>
+                                        <li><a href="#">Images Posts</a></li>
+                                        <li><a href="#">Recipe</a></li>
+                                    </ul>
+                                </div>                         
+                            </div>
+                        </div>
+                        <div class="blog-sidebar-newsletter">
+                            <img src="{% static 'assets/images/newsleatter.png' %}" alt="">
+                            <h4 class="title">Newsletter</h4>
+                            <p>Subscribe to our newsletter & stay update</p>
+                            <form action="#">
+                                <div class="input-box">
+                                    <input type="text" placeholder="Enter your email">
+                                    <button type="button" class="main-btn">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== BLOG STANDARD PART ENDS ======-->
+
+    <!--====== INSTAGRAM PART START ======-->
+    
+    <div class="instagram-area">
+        <div class="container-fluid p-0">
+            <div class="row  no-gutters">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-1.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-2.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-3.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-4.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-5.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-6.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--====== INSTAGRAM PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+  {%endblock%}

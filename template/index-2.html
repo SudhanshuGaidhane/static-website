@@ -1,0 +1,1181 @@
+{%extends "base.html"%}
+{%load static%}
+    
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== BANNER PART START ======-->
+    {%block content%}
+    <section class="banner-2-area bg_cover d-flex align-items-center parallaxie" style="background-image: url(assets/images/download-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="banner-content">
+                        <h1 class="title">Pizza <span>Time!</span></h1>
+                        <p>We Are Rondhon, Food Delivery Services </p>
+                        <div class="search-restaurant">
+                            <form action="#">
+                                <div class="input-box">
+                                    <input type="text" placeholder="Type Place, City, Division">
+                                </div>
+                                <div class="input-box item-2">
+                                    <input type="text" placeholder="Restaurant">
+                                </div>
+                                <div class="input-box">
+                                    <button class="main-btn" type="button"><i class="far fa-search"></i> Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== BANNER PART ENDS ======-->
+
+    <!--====== OFFER PART START ======-->
+    
+    <section class="offer-area pt-150 pb-150">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-4">
+                    <div class="section-title text-left">
+                        <img src="{% static 'assets/images/shape/title-shape-3.png' %}" alt="title">
+                        <h3 class="title">Special Offer</h3>
+                        <p>The Process of our service</p>
+                    </div>
+                    <div class="offer-text">
+                        <span>Best Service For Our Customer</span>
+                        <p>Cras gravida bibendum dolor eu  varius. Morbi fermentum velit nisl,  eget vehicula lorem.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="offer-item">
+                        <div class="offer-box">
+                            <img src="{% static 'assets/images/offer-box-1.png' %}" alt="">
+                        </div>
+                        <div class="offer-thumb text-center">
+                            <img src="{% static 'assets/images/offer-1.png' %}" alt="">
+                        </div>
+                        <div class="offer-content text-center">
+                            <h4 class="title">For All "Salad Pizza"</h4>
+                            <span>Don’t Delay to Order</span>
+                            <a class="main-btn" href="#">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8">
+                    <div class="offer-item item-2">
+                        <div class="offer-box">
+                            <img src="{% static 'assets/images/offer-box-2.png' %}" alt="">
+                        </div>
+                        <div class="offer-thumb text-center">
+                            <img src="{% static 'assets/images/offer-2.png' %}" alt="">
+                        </div>
+                        <div class="offer-content text-center">
+                            <h4 class="title">For All "Tomato Pizza"</h4>
+                            <span>Don’t Delay to Order</span>
+                            <a class="main-btn" href="#">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== OFFER PART ENDS ======-->
+
+    <!--====== DISCOVER PART START ======-->
+    
+    <section class="discover-area bg_cover" style="background-image: url(assets/images/food-menu-bg.jpg);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <img src="{% static 'assets/images/shape/title-shape-3.png' %}" alt="title">
+                        <h3 class="title">Discover Our Pizza</h3>
+                        <p>The Process of our service</p>
+                        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Italian</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Cheesy</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Fish & Seafood</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="pills-4-tab" data-toggle="pill" href="#pills-4" role="tab" aria-controls="pills-4" aria-selected="false">Vegeterian</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-1.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Veggie Paradise Pizza</h4>
+                                    <p>Golden corn ,Black Olives,Capsicum & Red Paprika.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>Rs150</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-2.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Veg Extravaganza</h4>
+                                    <p>Overloaded of corn,crunchy onions,juicyfresh tomatoes with extra cheese.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>Rs120</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-3.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Margherita Pizza</h4>
+                                    <p>Double cheese with cherry Tomato topping.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>Rs99</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-4.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Exotic non-veg Pizza</h4>
+                                    <p>Chicken cubes with cherry tomato extra cheese.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>Rs120</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-5.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Peparica cheese with Mashroom Topping </h4>
+                                    <p>VEG pizza with roast cheesy mashroom.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>Rs120</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-6.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Chicken non-veg Pizza</h4>
+                                    <p>juicy chicken cubes with cheese and onion,Olives.  </p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>Rs110</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-1.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">mashroom Pizza</h4>
+                                    <p>Overloaded cheese with mashroom topping.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>Rs150</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-2.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$14</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-3.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$16</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-4.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$15</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-5.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$14</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-6.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$16</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-1.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$15</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-2.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$14</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-3.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$16</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-4.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$15</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-5.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>Rs120</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-6.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$16</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-1.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$15</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-2.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$14</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-3.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$16</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-4.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$15</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-5.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$14</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="discover-item mt-30">
+                                <div class="discover-thumb text-center">
+                                    <img src="{% static 'assets/images/discover-6.png' %}" alt="pizza">
+                                    <span>Sale</span>
+                                </div>
+                                <div class="discover-content">
+                                    <h4 class="title">Marinara Pizza</h4>
+                                    <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                                    <div class="review-box d-flex align-items-center justify-content-between">
+                                        <ul>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                            <li><i class="fas fa-star"></i></li>
+                                        </ul>
+                                        <div class="cm-box">
+                                            <span>25 CM</span>
+                                            <span class="item-2">30 CM</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="discover-order d-flex justify-content-between align-items-center">
+                                    <span>$16</span>
+                                    <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== DISCOVER PART ENDS ======-->
+
+    <!--====== SERVICES PART START ======-->
+    
+    <section class="services-area pt-120 pb-140">
+        <div class="container custom-container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-9">
+                    <div class="services-item text-center mt-30">
+                        <i class="fas fa-motorcycle"></i>
+                        <h3 class="title">Fast Delivery in 1 Hour</h3>
+                        <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-9">
+                    <div class="services-item text-center mt-30">
+                        <i class="fas fa-mobile-android"></i>
+                        <h3 class="title">Amazing Mobile App</h3>
+                        <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-9">
+                    <div class="services-item text-center mt-30">
+                        <i class="fas fa-map-marked"></i>
+                        <h3 class="title">Wide Coverage Map</h3>
+                        <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-9">
+                    <div class="services-item text-center mt-30">
+                        <i class="fas fa-user-secret"></i>
+                        <h3 class="title">More Than 150 Couriers </h3>
+                        <p>Vestibulum blandit viverra convallis.  Pellentesque ligula urna.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== SERVICES PART ENDS ======-->
+
+    <!--====== SPECIAL MENU PART START ======-->
+    
+    <section class="special-menu-area pb-190">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <img src="{% static 'assets/images/shape/title-shape-3.png' %}" alt="title">
+                        <h3 class="title">Restaurant with Special Menu</h3>
+                        <p>All delicious pizza menu for pizza lovers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-8">
+                    <div class="special-menu-1 mt-30">
+                        <h4 class="title">Tirolese Pizza</h4>
+                        <p>Vestibulum blandit viverra  </p>
+                        <ul>
+                            <li>
+                                <span>Small</span>
+                                <p>$20</p>
+                            </li>
+                            <li>
+                                <span>Medium</span>
+                                <p>$30</p>
+                            </li>
+                            <li>
+                                <span>Large</span>
+                                <p>$40</p>
+                            </li>
+                        </ul>
+                        <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                        <div class="thumb">
+                            <img src="{% static 'assets/images/special-menu-thumb-1.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-8">
+                    <div class="special-menu-item mt-30">
+                        <div class="order-btn">
+                            <img src="{% static 'assets/images/special-menu-2.png' %}" alt="">
+                            <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                        </div>
+                        <div class="special-menu-1 special-menu-2">
+                            <h4 class="title">Tirolese Pizza</h4>
+                            <p>Vestibulum blandit viverra  </p>
+                            <ul>
+                                <li>
+                                    <span>Small</span>
+                                    <p>650Rs</p>
+                                </li>
+                                <li>
+                                    <span>Medium</span>
+                                    <p>750Rs</p>
+                                </li>
+                                <li>
+                                    <span>Large</span>
+                                    <p>850Rs</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="special-menu-item mt-30">
+                        <div class="order-btn">
+                            <img src="{% static 'assets/images/special-menu-3.png' %}" alt="">
+                            <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                        </div>
+                        <div class="special-menu-1 special-menu-2">
+                            <h4 class="title">Tirolese Pizza</h4>
+                            <p>Vestibulum blandit viverra  </p>
+                            <ul>
+                                <li>
+                                    <span>Small</span>
+                                    <p>$20</p>
+                                </li>
+                                <li>
+                                    <span>Medium</span>
+                                    <p>$30</p>
+                                </li>
+                                <li>
+                                    <span>Large</span>
+                                    <p>$40</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-8">
+                    <div class="special-menu-1 special-menu-3  mt-30">
+                        <h4 class="title">Tirolese Pizza</h4>
+                        <p>Cras eu elit congue, placerat dui ut, tincidunt nisl. Nulla leo elit,  </p>
+                        <ul>
+                            <li>
+                                <span>Small</span>
+                                <p>$20</p>
+                            </li>
+                            <li>
+                                <span>Medium</span>
+                                <p>$30</p>
+                            </li>
+                            <li>
+                                <span>Large</span>
+                                <p>$40</p>
+                            </li>
+                        </ul>
+                        <a class="main-btn" href="#"><i class="fas fa-shopping-basket"></i> Order Now</a>
+                        <div class="thumb">
+                            <img src="{% static 'assets/images/special-menu-4.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== SPECIAL MENU PART ENDS ======-->
+
+    <!--====== DOWNLOAD 2 PART START ======-->
+    
+    <section class="download-2-area bg_cover parallaxie d-flex align-items-end" style="background-image: url(assets/images/download-bg.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="download-item-content">
+                        <h3 class="title">Rondhon Now In Your Hand</h3>
+                        <p>Download! To Get This App Faster  way To Order Food</p>
+                        <ul>
+                            <li><a href="#"><img src="{% static 'assets/images/store-1.png' %}" alt=""></a></li>
+                            <li><a href="#"><img src="{% static 'assets/images/store-2.png' %}" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="mobile-screen">
+                        <img src="{% static 'assets/images/Mobile-screen.png' %}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--====== DOWNLOAD 2 PART ENDS ======-->
+
+    <!--====== CLIENT PART START ======-->
+    
+    <section class="client-area client-2-area d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center justify-content-end">
+                <div class="col-lg-2 col-md-3 col-sm-3">
+                    <div class="client-area-thumb-ltem ">
+                        <ul>
+                            <li><img src="{% static 'assets/images/client-user-1.png' %}" alt="user"></li>
+                            <li><img src="{% static 'assets/images/client-user-2.png' %}" alt="user"></li>
+                            <li><img src="{% static 'assets/images/client-user-3.png' %}" alt="user"></li>
+                            <li><img src="{% static 'assets/images/client-user-2.png' %}" alt="user"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-9 col-sm-9">
+                    <div class="client-slide">
+                        <div class="client-box">
+                            <h4 class="title">Very Taste and Professional Behave </h4>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <div class="user mt-40">
+                                <div class="thumb">
+                                    <img src="{% static 'assets/images/user-1.png' %}" alt="">
+                                </div>
+                                <span>Chad S. Jones</span>
+                                <p>Food Lover Customer</p>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <h4 class="title">Very Taste and Professional Behave </h4>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <div class="user mt-40">
+                                <div class="thumb">
+                                    <img src="{% static 'assets/images/user-2.png' %}" alt="">
+                                </div>
+                                <span>Chad S. Jones</span>
+                                <p>Food Lover Customer</p>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <h4 class="title">Very Taste and Professional Behave </h4>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <div class="user mt-40">
+                                <div class="thumb">
+                                    <img src="{% static 'assets/images/user-3.png' %}" alt="">
+                                </div>
+                                <span>Chad S. Jones</span>
+                                <p>Food Lover Customer</p>
+                            </div>
+                        </div>
+                        <div class="client-box">
+                            <h4 class="title">Very Taste and Professional Behave </h4>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which.</p>
+                            <ul>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <div class="user mt-40">
+                                <div class="thumb">
+                                    <img src="{% static 'assets/images/user-2.png' %}" alt="">
+                                </div>
+                                <span>Chad S. Jones</span>
+                                <p>Food Lover Customer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="client-thumb">
+            <img src="{% static 'assets/images/Testimonials.png' %}" alt="">
+        </div>
+        <div class="client-thumb-2">
+            <img src="{% static 'assets/images/client-thumb-2.png' %}" alt="">
+        </div>
+    </section>
+    
+    <!--====== CLIENT PART ENDS ======-->
+
+    <!--====== INSTAGRAM PART START ======-->
+    
+    <div class="instagram-area">
+        <div class="container-fluid p-0">
+            <div class="row  no-gutters">
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-1.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-2.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-3.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-4.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-5.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="instagram-item">
+                        <img src="{% static 'assets/images/instagram-6.jpg' %}" alt="instagram">
+                        <div class="instagram-overlay">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--====== INSTAGRAM PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+    
+    {%endblock%}
